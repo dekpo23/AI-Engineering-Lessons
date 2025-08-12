@@ -1,0 +1,15 @@
+name = input("Enter your name: ")
+print('Hello', name)
+
+age = int(input('Enter your age: '))
+print(f'You will be {age + 1} years old next year')
+
+num1 = float(input('Enter first number: '))
+num2 = float(input('Enter Second number: '))
+sum_result = num1 + num2
+print(f'The sum of {num1} and {num2} is {sum_result}.')
+
+#First line of code welcomes the customer
+#Obtain user input from customers
+print('Hi Customer')
+print(input('What would you like to eat today? '))
